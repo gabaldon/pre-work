@@ -1,0 +1,211 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 30px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: -20px 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+.header {
+color:white;
+display:block;
+padding:10px;
+background-image: url('images/city-scape.svg');
+height: 350px;
+box-sizing: border-box;
+}
+    
+    .form {
+        position: relative;
+        left:25px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+    .form input{
+        width: 850px;
+        height: 30px;
+        background-color: rgb(31, 82, 111);
+        border: 1px solid rgba(241, 253, 255, 0.418);
+        position:relative;
+        border-radius: 1px;
+        font-size: 15px; 
+        cursor: pointer;
+        text-align: left;
+        padding-left: 10px;
+        color:rgba(241, 253, 255, 0.418);
+    }
+    .search-button{
+        background-color: rgb(31, 82, 111);
+        border: 1px solid rgba(241, 253, 255, 0.418);
+        position: absolute;
+        height: 34px;
+        width: 30px;
+        border-left: none;
+    }
+    .header-top img{
+        width:10%;
+        float:left;
+    }
+    .sign-up img{
+        float:right;
+        width:20%;
+        position:relative;
+        left: -10px; 
+        margin-top: -40px; 
+    }
+    .sign-up {
+        float: right;
+        text-decoration: none;
+        color:white;
+        position:relative;
+        
+    }
+    .sign-up-text {
+        float: right;
+        text-decoration: none;
+        color:white;
+        position:relative;
+        left:-60px;
+        margin-top: -30px; 
+    }
+    .text-left-pad{
+        text-align: left;
+        padding-left: 200px;
+        padding-top: 35px;
+        width:450px;
+        
+    }
+    .button1{
+        background-color:rgb(240, 146, 51);
+        position: absolute;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        text-decoration: none;
+        color:white;
+    }
+#section1{
+    background-color: rgb(39, 53, 71);
+    display:block;
+    height: 400px;
+    box-sizing: border-box;
+    color:white;
+}
+    #section1 img{
+        float:left;
+        width:25%;
+        padding-top: 100px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+        padding-left: 150px;
+    }
+    .text-container{
+        text-align: left;
+        padding-left: 600px;
+        padding-top: 70px;
+        width:500px;
+    }
+    .sign-up-for-Orgs{
+        background-color:rgb(203, 56, 55);
+        position: absolute;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        text-decoration: none;
+        color:white;
+        
+    }
+    .learn-more{
+        text-decoration: none;
+        position:absolute;
+        padding-top:30px;
+        color:white;
+    }
+#section2{
+    background-image: url('images/forklift.svg');
+    display:block;
+    height: 400px;
+    background-size: cover;
+    color:white;
+    
+}
+    .text-container2{
+        text-align: left;
+        padding-left: 150px;
+        padding-top: 100px;
+        width:500px;
+    }
+    .install{
+        background-color:rgb(49, 68, 88);
+        position: absolute;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        text-decoration: none;
+        color:white;
+    }
+#section3{
+    background-color: white;
+    height: 350px;
+    
+}
+    .section-header{
+        text-align: center;
+        color:rgb(83, 88, 98);
+        padding-top:50px;
+        
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 33% 33% 33%;
+        color:rgb(135, 145, 156);
+        margin-top:50px;
+        margin-left:200px;
+        margin-right:100px;
+        grid-row-gap: 80px;
+        
+    }
+    .links{
+        text-decoration: none;
+        color:rgb(208, 74, 73);
+        
+    }
+    #find{
+        text-align: center;
+        width:250px;
+    }
+    #discover{
+        text-align: center;
+        width:250px;
+    }
+    #build{
+        text-align: center;
+        width:250px;
+    }
